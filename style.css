@@ -17,6 +17,7 @@ body {
 
 #content {
     overflow: auto;
+    margin-bottom: 1in; /* Added to ensure space at the bottom */
 }
 
 #nav,
@@ -63,7 +64,8 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px; /* Adjust the margin-top value as needed */
+    margin-top: 100px; /* Adjust the margin-top value */
+    margin-bottom: 2in; /* Adjust the margin-bottom value */
 }
 
 .container .box {
@@ -183,4 +185,5 @@ a {
     display: block;
     margin: 0 auto;
     clear: both;
+    margin-bottom: 20px; /* Added to provide space below the button */
 }
